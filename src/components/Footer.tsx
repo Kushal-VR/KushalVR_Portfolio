@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
             GITHUB
           </a>
           <a
-            href="https://linkedin.com/in/kushalvr"
+            href="https://www.linkedin.com/in/kushal-vr-a3907b37a"
             target="_blank"
             rel="noreferrer"
             className="hover:text-[#D4AF37] transition-colors"

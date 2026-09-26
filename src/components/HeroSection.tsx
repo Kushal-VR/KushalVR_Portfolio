@@ -49,12 +49,12 @@ export const HeroSection: React.FC = () => {
       {/* Main Hero Content Stage (Layered above full-screen video) */}
       <div className="relative z-10 max-w-[1500px] w-full mx-auto px-5 sm:px-6 md:px-[6vw] flex-1 flex flex-col justify-center md:my-auto py-4 sm:py-6 md:py-0">
         <div className="max-w-[720px] space-y-3.5 sm:space-y-4 md:space-y-4.5">
-          {/* Top Wordmark Tag */}
+          {/* Top Wordmark Tag (Hidden on mobile) */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="inline-flex items-center gap-2.5 px-3 py-1 bg-[#15181E]/90 border border-[#D4AF37]/30 rounded-full backdrop-blur-sm shadow-[0_0_15px_rgba(212,175,55,0.15)]"
+            className="hidden sm:inline-flex items-center gap-2.5 px-3 py-1 bg-[#15181E]/90 border border-[#D4AF37]/30 rounded-full backdrop-blur-sm shadow-[0_0_15px_rgba(212,175,55,0.15)]"
           >
             <Sparkles size={12} className="text-[#D4AF37]" />
             <span className="text-[11px] font-mono-meta tracking-widest text-[#F5E6BE] font-medium">

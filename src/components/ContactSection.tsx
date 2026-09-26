@@ -193,7 +193,7 @@ export const ContactSection: React.FC = () => {
                   <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/kushalvr"
+                  href="https://www.linkedin.com/in/kushal-vr-a3907b37a"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-between text-xs font-mono-meta tracking-wider text-[#A3A8B3] hover:text-[#D4AF37] py-2 border-b border-[#232730] transition-colors group"
